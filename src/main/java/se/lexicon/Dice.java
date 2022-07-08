@@ -4,7 +4,7 @@ import java.util.Random;
 
 public enum Dice {
 
-    D6 (6), D10 (10), D20 (20), D100(100);
+    D6(6), D10(10), D20(20), D100(100);
 
     private int d6;
     private int d10;
@@ -40,14 +40,4 @@ public enum Dice {
     Random roll4 = new Random();
     int numberD100 = 100;
     int intRandom100 = roll.nextInt(numberD100);
-
 }
-
-
-
-
-
-
-
-
-
